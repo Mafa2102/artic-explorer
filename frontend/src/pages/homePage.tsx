@@ -99,7 +99,7 @@ export default function HomePage() {
                 <img
                   src={heroImage || defaultImage}
                   alt="Featured artwork"
-                  className="object-cover w-full h-full"
+                  className="object-cover w-fullh-full"
                 />
                 <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/10 dark:to-black/30"></div>
               </div>
