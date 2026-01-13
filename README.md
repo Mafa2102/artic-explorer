@@ -4,13 +4,15 @@ A modern web application for exploring artworks and discovering artists from the
 
 ## Features
 
-:sparkles: **Browse Artworks** - Explore thousands of artworks from the Art Institute collection
-:sparkles: **Search Artworks** - Find artworks by title, artist, or keywords with pagination
-:sparkles: **Discover Artists** - Browse and filter artists represented in the collection
-:sparkles: **Artist Profiles** - View all artworks by a specific artist with pagination
-:sparkles: **Dark Mode** - Toggle between light and dark themes
-:sparkles: **Responsive Design** - Mobile-friendly interface that works on all devices
-:sparkles: **Fast Performance** - Built with Vite for instant development and optimized builds
+## Features
+
+✨ **Browse Artworks** - Explore thousands of artworks from the Art Institute collection  
+✨ **Search Artworks** - Find artworks by title, artist, or keywords with pagination  
+✨ **Discover Artists** - Browse and filter artists represented in the collection  
+✨ **Artist Profiles** - View all artworks by a specific artist with pagination  
+✨ **Dark Mode** - Toggle between light and dark themes  
+✨ **Responsive Design** - Mobile-friendly interface that works on all devices  
+✨ **Fast Performance** - Built with Vite for instant development and optimized builds
 
 ## Tech Stack
 
