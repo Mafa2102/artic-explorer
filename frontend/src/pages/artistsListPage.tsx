@@ -33,7 +33,6 @@ export default function ArtistsListPage() {
       }
 
       const data = await response.json()
-      console.log('Fetched artists:', data)
 
       // Extract unique artists from artworks
       const uniqueArtists: { [key: string]: Artist } = {}

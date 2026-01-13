@@ -60,7 +60,6 @@ export default function ArtworksPage() {
       }
       
       const data = await response.json()
-      console.log('Fetched artworks data:', data)
       // Set artworks from the response
       setArtworks(data.data || [])
       setPagination(data.pagination || null)

@@ -41,7 +41,6 @@ export default function ArtistDetailPage() {
       // Search for artworks by this artist with pagination
       const offset = (currentPage - 1) * LIMIT
       const url = `/api/artworks/search?q=${encodeURIComponent(artistName)}&limit=${LIMIT}&offset=${offset}`
-      console.log('Fetching with:', { currentPage, offset, LIMIT, url })
       const response = await fetch(url)
 
       if (!response.ok) {
@@ -49,7 +48,6 @@ export default function ArtistDetailPage() {
       }
 
       const data = await response.json()
-      console.log('Fetched artworks:', data, 'With pagination:', data.pagination)
       setArtworks(Array.isArray(data.data) ? data.data : [])
       setPagination(data.pagination || null)
     } catch (err) {
