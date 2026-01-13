@@ -4,16 +4,11 @@ A modern web application for exploring artworks and discovering artists from the
 
 ## Demo
 
-![Artic Explorer Demo](frontend/static/demo.gif)
+![Artic Explorer Demo](frontend/static/ArcticExplorer.gif)
 
 ## Table of Contents
 
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Quick Start](#quick-start)
-- [Testing](#testing)
-- [Troubleshooting](#troubleshooting)
-- [Contributing](#next-steps--contributing)
+[Features](#features) | [Tech Stack](#tech-stack) | [Project Structure](#project-structure) | [Quick Start](#quick-start) | [Testing](#testing) | [Troubleshooting](#troubleshooting) | [Next Steps](#next-steps)
 
 ## Features
 
@@ -29,22 +24,23 @@ A modern web application for exploring artworks and discovering artists from the
 
 **Frontend:**
 
-- React 19 with TypeScript
-- Vite (build tool with HMR support)
-- React Router DOM (navigation)
-- Custom CSS with CSS variables (dark mode support)
+![React] React 19 with TypeScript
+![Vite] Vite (build tool with HMR support)
+![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter)React Router DOM (navigation)
+![CSS] Custom CSS with CSS variables (dark mode support)
 
 **Backend:**
 
-- NestJS (Node.js framework)
-- TypeScript
-- Axios (HTTP client)
-- CORS enabled for frontend communication
+![NestJ] (Node.js framework)
+![TypeScript] TypeScript
+![Axios] Axios (HTTP client)
+![CORS] CORS enabled for frontend communication
 
 **Testing:**
 
-- Jest (testing framework)
-- @nestjs/testing (NestJS testing utilities)
+![Jest] Jest (testing framework)
+
+![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow) @nestjs/testing (NestJS testing utilities)
 
 **External API:**
 
