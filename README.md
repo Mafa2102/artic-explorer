@@ -45,7 +45,7 @@ A modern web application for exploring artworks and discovering artists from the
 
 **External API:**
 
-- Art Institute of Chicago API (`https://api.artic.edu/api/v1/`)
+![Art Institute of Chicago API](https://img.shields.io/badge/Art%20Institute%20of%20Chicago%20API-public-blue)
 
 ## Project Structure
 
