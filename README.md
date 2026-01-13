@@ -2,7 +2,18 @@
 
 A modern web application for exploring artworks and discovering artists from the Art Institute of Chicago's public collection. Built with React and TypeScript for the frontend, and NestJS for the backend.
 
-## Features
+## Demo
+
+![Artic Explorer Demo](frontend/static/demo.gif)
+
+## Table of Contents
+
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Quick Start](#quick-start)
+- [Testing](#testing)
+- [Troubleshooting](#troubleshooting)
+- [Contributing](#next-steps--contributing)
 
 ## Features
 
