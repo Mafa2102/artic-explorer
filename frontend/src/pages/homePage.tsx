@@ -71,43 +71,38 @@ export default function HomePage() {
       <div className="bg-white dark:bg-dark-bg">
         {/* Hero Section */}
         <div className="page-container py-12 md:py-16">
-          <div className="max-w-6xl mx-auto w-full">
-            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[500px]">
-              {/* Content */}
-              <div className="flex flex-col items-center justify-center space-y-8">
-                <div className="space-y-4">
-                  <h1 className="heading-lg text-5xl md:text-6xl lg:text-7xl text-gallery-text dark:text-dark-text leading-none">
-                    Art Institute
-                  </h1>
-                  <p className="text-lg md:text-xl text-gallery-muted dark:text-dark-muted font-light leading-relaxed max-w-lg">
-                    Explore over 130,000 artworks from one of the world's most prestigious collections. Discover masterpieces from artists spanning centuries and continents.
-                  </p>
-                </div>
-
-                {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-6 pt-4">
-                  <Link to="/artworks" className="btn-secondary">
-                    View Collection
-                  </Link>
-                  <Link to="/artists" className="btn-secondary">
-                    Browse Artists
-                  </Link>
-                </div>
+          <div className="relative overflow-hidden bg-white dark:bg-dark-bg rounded">
+            {/* Content */}
+            <div className="flex flex-col items-center justify-start py-16 md:py-24 space-y-8 mx-auto px-4 md:px-8 max-w-2xl text-center">
+              <div className="space-y-4">
+                <h1 className="heading-lg text-4xl md:text-5xl lg:text-6xl text-gallery-text dark:text-dark-text leading-none">
+                  Art Institute
+                </h1>
+                <p className="text-base md:text-lg text-gallery-muted dark:text-dark-muted font-light leading-relaxed">
+                  Explore over 130,000 artworks from one of the world's most prestigious collections. Discover masterpieces from artists spanning centuries and continents.
+                </p>
               </div>
 
-              {/* Image */}
-              <div className="hidden lg:flex relative justify-center items-center h-full min-h-[500px] overflow-hidden bg-gallery-surface dark:bg-dark-surface rounded">
-                <img
-                  src={heroImage || defaultImage}
-                  alt="Featured artwork"
-                  className="object-cover w-fullh-full"
-                />
-                <div className="absolute inset-0 bg-gradient-to-l from-transparent to-black/10 dark:to-black/30"></div>
+              {/* CTA Buttons */}
+              <div className="flex flex-col sm:flex-row gap-6 pt-4">
+                <Link to="/artworks" className="btn-secondary">
+                  View Collection
+                </Link>
+                <Link to="/artists" className="btn-secondary">
+                  Browse Artists
+                </Link>
               </div>
             </div>
+
+            {/* Image */}
+            <div className="w-full relative overflow-hidden bg-gallery-surface dark:bg-dark-surface">
+              <img
+                src={heroImage || defaultImage}
+                alt="Featured artwork"
+                className="object-cover w-full h-96"
+              />
+            </div>
           </div>
-          </div>
-        </div>
 
         {/* Stats Section */}
         <section className="bg-gallery-surface dark:bg-dark-surface border-t border-gallery-border dark:border-dark-border">
@@ -164,6 +159,8 @@ export default function HomePage() {
             </div>
           </div>
         </section>
+      </div>
+      </div>
     </Layout>
   )
 }

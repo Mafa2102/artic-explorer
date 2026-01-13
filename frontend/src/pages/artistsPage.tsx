@@ -26,7 +26,7 @@ export default function ArtworksPage() {
   const [searchTerm, setSearchTerm] = useState('')
   const [currentPage, setCurrentPage] = useState(1)
   const [pagination, setPagination] = useState<Pagination | null>(null)
-  const LIMIT = 10
+  const LIMIT = 12
 
   useEffect(() => {
     setCurrentPage(1)
@@ -169,7 +169,7 @@ export default function ArtworksPage() {
 
                 {/* Pagination */}
                 {pagination && pagination.total_pages > 1 && (
-                  <div className="flex items-center justify-center gap-6 mt-12 md:mt-16 pt-12 border-t border-gallery-border dark:border-dark-border">
+                  <div className="flex items-center justify-center gap-6 mt-12 md:mt-16 py-6">
                     <button
                       onClick={() => setCurrentPage(Math.max(1, currentPage - 1))}
                       disabled={currentPage === 1}

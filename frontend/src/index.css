@@ -242,6 +242,7 @@ canvas {
 .min-h-\[500px\] { min-height: 500px; }
 .max-w-2xl { max-width: 42rem; }
 .max-w-lg { max-width: 32rem; }
+.max-w-6xl { max-width: 72rem; }
 
 /* Padding */
 .p-2 { padding: var(--space-2); }

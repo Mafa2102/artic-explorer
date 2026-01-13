@@ -27,7 +27,7 @@ export default function ArtistDetailPage() {
   const [error, setError] = useState<string | null>(null)
   const [currentPage, setCurrentPage] = useState(1)
   const [pagination, setPagination] = useState<Pagination | null>(null)
-  const LIMIT = 10
+  const LIMIT = 12
 
   useEffect(() => {
     fetchArtistArtworks()
