@@ -24,23 +24,22 @@ A modern web application for exploring artworks and discovering artists from the
 
 **Frontend:**
 
-![React] React 19 with TypeScript
-![Vite] Vite (build tool with HMR support)
+![React](https://img.shields.io/badge/React-19-blue?logo=react) React 19 with TypeScript
+![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite) Vite (build tool with HMR support)
 ![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter)React Router DOM (navigation)
-![CSS] Custom CSS with CSS variables (dark mode support)
+![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3) Custom CSS with CSS variables (dark mode support)
 
 **Backend:**
 
-![NestJ] (Node.js framework)
-![TypeScript] TypeScript
-![Axios] Axios (HTTP client)
-![CORS] CORS enabled for frontend communication
+![NestJS](https://img.shields.io/badge/NestJS-Node.js%20framework-red?logo=nestjs) (Node.js framework)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript) TypeScript
+![Axios](https://img.shields.io/badge/Axios-HTTP%20client-5cb85c?logo=axios) Axios (HTTP client)
+![CORS](https://img.shields.io/badge/CORS-Enabled-brightgreen) CORS enabled for frontend communication
 
 **Testing:**
 
-![Jest] Jest (testing framework)
-
-![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow) @nestjs/testing (NestJS testing utilities)
+![Jest](https://img.shields.io/badge/Jest-testing-red?logo=jest) Jest (testing framework)
+![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow) NestJS testing utilities
 
 **External API:**
 
