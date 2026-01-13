@@ -24,22 +24,24 @@ A modern web application for exploring artworks and discovering artists from the
 
 **Frontend:**
 
-![React](https://img.shields.io/badge/React-19-blue?logo=react) React 19 with TypeScript
-![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite) Vite (build tool with HMR support)
-![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter)React Router DOM (navigation)
-![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3) Custom CSS with CSS variables (dark mode support)
+**Frontend:**
+
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite)
+![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter)
+![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3)
 
 **Backend:**
 
-![NestJS](https://img.shields.io/badge/NestJS-Node.js%20framework-red?logo=nestjs) (Node.js framework)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript) TypeScript
-![Axios](https://img.shields.io/badge/Axios-HTTP%20client-5cb85c?logo=axios) Axios (HTTP client)
-![CORS](https://img.shields.io/badge/CORS-Enabled-brightgreen) CORS enabled for frontend communication
+![NestJS](https://img.shields.io/badge/NestJS-Node.js%20framework-red?logo=nestjs)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)
+![Axios](https://img.shields.io/badge/Axios-HTTP%20client-5cb85c?logo=axios)
+![CORS](https://img.shields.io/badge/CORS-Enabled-brightgreen)
 
 **Testing:**
 
-![Jest](https://img.shields.io/badge/Jest-testing-red?logo=jest) Jest (testing framework)
-![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow) NestJS testing utilities
+![Jest](https://img.shields.io/badge/Jest-testing-red?logo=jest)
+![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow)
 
 **External API:**
 
