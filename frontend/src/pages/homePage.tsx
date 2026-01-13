@@ -71,9 +71,10 @@ export default function HomePage() {
       <div className="bg-white dark:bg-dark-bg">
         {/* Hero Section */}
         <div className="page-container py-12 md:py-16">
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[500px]">
+          <div className="max-w-6xl mx-auto w-full">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center min-h-[500px]">
               {/* Content */}
-              <div className="flex flex-col justify-center space-y-8">
+              <div className="flex flex-col items-center justify-center space-y-8">
                 <div className="space-y-4">
                   <h1 className="heading-lg text-5xl md:text-6xl lg:text-7xl text-gallery-text dark:text-dark-text leading-none">
                     Art Institute
@@ -84,8 +85,8 @@ export default function HomePage() {
                 </div>
 
                 {/* CTA Buttons */}
-                <div className="flex flex-col sm:flex-row gap-4 pt-4">
-                  <Link to="/artworks" className="btn-primary">
+                <div className="flex flex-col sm:flex-row gap-6 pt-4">
+                  <Link to="/artworks" className="btn-secondary">
                     View Collection
                   </Link>
                   <Link to="/artists" className="btn-secondary">
@@ -105,21 +106,14 @@ export default function HomePage() {
               </div>
             </div>
           </div>
-        </div>
-
-        {/* Mobile Hero Image */}
-        <div className="lg:hidden w-full h-80 overflow-hidden bg-gallery-surface dark:bg-dark-surface">
-          <img
-            src={heroImage || defaultImage}
-            alt="Featured artwork"
-            className="w-full h-full object-cover"
-          />
+          </div>
         </div>
 
         {/* Stats Section */}
         <section className="bg-gallery-surface dark:bg-dark-surface border-t border-gallery-border dark:border-dark-border">
           <div className="page-container py-16 md:py-24">
-            <div className="grid grid-cols-3 gap-8 md:gap-16">
+            <div className="max-w-6xl mx-auto w-full">
+              <div className="grid grid-cols-3 gap-8 md:gap-16">
               {/* Artworks Stat */}
               <div className="text-center space-y-3">
                 <div className="text-5xl md:text-6xl font-display font-light text-accent">
@@ -149,6 +143,7 @@ export default function HomePage() {
                   Collections
                 </p>
               </div>
+            </div>
             </div>
           </div>
         </section>

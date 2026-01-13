@@ -72,8 +72,11 @@ export default function ArtistsListPage() {
   return (
     <Layout>
       <div className="bg-white dark:bg-dark-bg">
-        <div className="page-container py-12 md:py-16">
-          <h1 className="text-4xl font-bold mb-8">Artists</h1>
+        <div className="page-container py-6 md:py-16">
+          <h1 className="text-5xl mb-8">Artists</h1>
+          <p className="text-base md:text-lg text-gallery-muted dark:text-dark-muted font-light">
+              Discover and search master artists from around the world.
+          </p>
 
         {error && (
           <div className="bg-red-50 border border-red-200 text-red-700 px-4 py-3 rounded mb-6">

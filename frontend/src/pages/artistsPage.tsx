@@ -84,8 +84,8 @@ export default function ArtworksPage() {
     <Layout>
       <div className="bg-white dark:bg-dark-bg">
         {/* Page Header */}
-        <section className="bg-white dark:bg-dark-bg border-b border-gallery-border dark:border-dark-border">
-          <div className="page-container py-12 md:py-16">
+        <section className="bg-white dark:bg-dark-bg">
+          <div className="page-container py-6 md:py-16">
             <div className="space-y-4 max-w-2xl">
               <h1 className="heading-lg text-5xl md:text-6xl text-gallery-text dark:text-dark-text">
                 Collection
@@ -98,10 +98,9 @@ export default function ArtworksPage() {
         </section>
 
         {/* Search Bar */}
-        <section className="bg-gallery-surface dark:bg-dark-surface border-b border-gallery-border dark:border-dark-border sticky top-0 z-10">
-          <div className="page-container py-6">
+          <div className="page-container">
             <input
-              type="search"
+              type="text"
               placeholder="Search artworks..."
               value={searchTerm}
               onChange={(e) => setSearchTerm(e.target.value)}
@@ -109,7 +108,7 @@ export default function ArtworksPage() {
               aria-label="Search artworks"
             />
           </div>
-        </section>
+
 
         {/* Main Content */}
         <section className="bg-white dark:bg-dark-bg py-12 md:py-16">

@@ -325,7 +325,7 @@ canvas {
   font-size: var(--font-base);
   font-weight: 500;
   border: none;
-  border-radius: var(--radius-none);
+  border-radius: var(--radius-lg);
   cursor: pointer;
   transition: all var(--transition-base);
   text-decoration: none;
@@ -361,7 +361,8 @@ canvas {
 }
 
 .btn-secondary:hover {
-  background-color: var(--color-secondary);
+  background-color: var(--color-accent);
+  color: white;
   box-shadow: var(--shadow-sm);
 }
 

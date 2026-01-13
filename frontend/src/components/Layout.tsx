@@ -61,7 +61,7 @@ export default function Layout({ children }: LayoutProps) {
               to="/artists"
               className={`nav-link inline-flex ${isActive('/artists') && 'nav-link-active'}`}
             >
-              Browse
+              Artists
             </Link>
           </div>
         </nav>
@@ -74,8 +74,8 @@ export default function Layout({ children }: LayoutProps) {
 
       {/* Footer */}
       <footer className="bg-gallery-surface dark:bg-dark-surface border-t border-gallery-border dark:border-dark-border">
-        <div className="page-container py-8">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="page-container py-4 flex items-center justify-center min-h-[60px]">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-1 w-full">
             <p className="text-sm text-gallery-muted dark:text-dark-muted font-light">
               © {new Date().getFullYear()} Art Institute of Chicago. All rights reserved.
             </p>
