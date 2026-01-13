@@ -10,7 +10,7 @@ A modern web application for exploring artworks and discovering artists from the
 
 ## Table of Contents
 
-[Features](#features) | [Tech Stack](#tech-stack) | [Project Structure](#project-structure) | [Quick Start](#quick-start) | [Testing](#testing) | [Troubleshooting](#troubleshooting) | [Next Steps](#next-steps)
+[Features](#features) | [Tech Stack](#tech-stack) | [Project Structure](#project-structure) | [Quick Start](#quick-start) | [Testing](#testing) | [Troubleshooting](#troubleshooting) | [Key Implementation Details](#key-implementation-details)
 
 ## Features
 
@@ -30,7 +30,7 @@ A modern web application for exploring artworks and discovering artists from the
 ![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite&style=for-the-badge)
 ![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter&style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3&style=for-the-badge)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=333333)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&style=for-the-badge)
 
 **Backend:**
 
@@ -239,25 +239,6 @@ npm run test:cov
 - Get artworks by artist ID
 - Pagination response structure
 
-## Production Build
-
-### Build Both Frontend & Backend
-
-```bash
-npm run build:frontend
-npm run build:backend
-```
-
-### Run Production Build Locally
-
-```bash
-# Terminal 1: Start backend
-cd backend && npm run start
-
-# Terminal 2: Serve frontend build
-cd frontend && npm run preview
-```
-
 ## Troubleshooting
 
 ### Port Already in Use
@@ -312,10 +293,3 @@ cd frontend && npm run preview
 - **CSS Variables**: Custom CSS with light/dark mode using CSS variables
 - **Error Handling**: Backend includes try-catch blocks and CORS error handling
 - **Lazy Loading**: Images use lazy loading for performance
-
-## Next Steps / Contributing
-
-- Run `npm run test` to verify all tests pass
-- Run `npm run lint` to check code quality
-- Review the code in `frontend/src/pages/` and `backend/src/` modules
-- Check out the API responses in browser DevTools Network tab
