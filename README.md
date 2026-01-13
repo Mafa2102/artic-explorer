@@ -5,7 +5,7 @@ A modern web application for exploring artworks and discovering artists from the
 ## Demo
 
 <p align="center">
-  <img src="frontend/static/ArcticExplorer.gif" alt="Artic Explorer Demo" width="400"/>
+  <img src="frontend/src/static/ArcticExplorer.gif" alt="Artic Explorer Demo" width="400"/>
 </p>
 
 ## Table of Contents
@@ -26,29 +26,27 @@ A modern web application for exploring artworks and discovering artists from the
 
 **Frontend:**
 
-**Frontend:**
-
-![React](https://img.shields.io/badge/React-19-blue?logo=react)
-![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite)
-![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter)
-![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3)
+![React](https://img.shields.io/badge/React-19-blue?logo=react&style=for-the-badge)
+![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite&style=for-the-badge)
+![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter&style=for-the-badge)
+![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3&style=for-the-badge)
 ![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=333333)
 
 **Backend:**
 
-![NestJS](https://img.shields.io/badge/NestJS-Node.js%20framework-red?logo=nestjs)
-![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript)
-![Axios](https://img.shields.io/badge/Axios-HTTP%20client-5cb85c?logo=axios)
-![CORS](https://img.shields.io/badge/CORS-Enabled-brightgreen)
+![NestJS](https://img.shields.io/badge/NestJS-Node.js%20framework-red?logo=nestjs&style=for-the-badge)
+![TypeScript](https://img.shields.io/badge/TypeScript-4.x-blue?logo=typescript&style=for-the-badge)
+![Axios](https://img.shields.io/badge/Axios-HTTP%20client-5cb85c?logo=axios&style=for-the-badge)
+![CORS](https://img.shields.io/badge/CORS-Enabled-brightgreen?style=for-the-badge)
 
 **Testing:**
 
-![Jest](https://img.shields.io/badge/Jest-testing-red?logo=jest)
-![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow)
+![Jest](https://img.shields.io/badge/Jest-testing-red?logo=jest&style=for-the-badge)
+![NestJS Testing](https://img.shields.io/badge/@nestjs/testing-utils-yellow?style=for-the-badge)
 
 **External API:**
 
-[![Art Institute of Chicago API](https://img.shields.io/badge/Art%20Institute%20of%20Chicago%20API-public-blue)](https://api.artic.edu/api/v1/)
+[![Art Institute of Chicago API](https://img.shields.io/badge/Art%20Institute%20of%20Chicago%20API-public-blue?style=for-the-badge)](https://api.artic.edu/api/v1/)
 
 ## Project Structure
 
