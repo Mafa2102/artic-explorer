@@ -30,7 +30,7 @@ A modern web application for exploring artworks and discovering artists from the
 ![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite&style=for-the-badge)
 ![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter&style=for-the-badge)
 ![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3&style=for-the-badge)
-![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&style=for-the-badge)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?logo=prettier&logoColor=white&style=for-the-badge)
 
 **Backend:**
 
