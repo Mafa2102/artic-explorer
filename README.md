@@ -4,7 +4,9 @@ A modern web application for exploring artworks and discovering artists from the
 
 ## Demo
 
-![Artic Explorer Demo](frontend/static/ArcticExplorer.gif)
+<p align="center">
+  <img src="frontend/static/ArcticExplorer.gif" alt="Artic Explorer Demo" width="400"/>
+</p>
 
 ## Table of Contents
 
@@ -30,6 +32,7 @@ A modern web application for exploring artworks and discovering artists from the
 ![Vite](https://img.shields.io/badge/Vite-frontend-yellow?logo=vite)
 ![React Router](https://img.shields.io/badge/React%20Router-DOM-blue?logo=reactrouter)
 ![CSS3](https://img.shields.io/badge/CSS3-Custom%20CSS%20Variables-blue?logo=css3)
+![Prettier](https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=prettier&logoColor=333333)
 
 **Backend:**
 
@@ -45,7 +48,7 @@ A modern web application for exploring artworks and discovering artists from the
 
 **External API:**
 
-![Art Institute of Chicago API](https://img.shields.io/badge/Art%20Institute%20of%20Chicago%20API-public-blue)
+[![Art Institute of Chicago API](https://img.shields.io/badge/Art%20Institute%20of%20Chicago%20API-public-blue)](https://api.artic.edu/api/v1/)
 
 ## Project Structure
 
