@@ -1,6 +1,6 @@
 # Artic Explorer
 
-A modern web application for exploring artworks and discovering artists from the Art Institute of Chicago's public collection. Built with React and TypeScript for the frontend, and NestJS for the backend.
+A modern web application for exploring artworks and discovering artists from the Art Institute of Chicago's public collection. Built with React and TypeScript for both the frontend and backend (NestJS). Features include fast search, paginated browsing, artist profiles, dark mode, and responsive design.
 
 ## Demo
 
